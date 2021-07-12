@@ -1,0 +1,211 @@
+table{
+	background-color:#E5E5E5;
+	width: 80%;
+	margin: auto;
+	font-family: calibri;
+	border-spacing: 4px;
+	 border: 1px solid #979797 ;
+	 border-radius: 10px;
+}
+
+#action{
+	width:124px;
+	 vertical-align: top;
+}
+
+#additional{
+	background-color: white;
+	border-radius: 10px;
+	 vertical-align: top;
+}
+
+#author{
+	text-align:left;
+	vertical-align: top;
+}
+
+.btn{
+	white-space: pre-line;
+	font-size: 11;
+	font-family: 'Montserrat Alternates', sans-serif;
+	width: 120px;
+	height: 50px;
+	border-radius: 10px;
+	background-color: white;
+}
+form{
+	padding: 0;
+	margin:0;
+}
+
+td{
+	padding-left: 10px;
+}
+#books_reservations{
+	width: 100%;
+}	
+#status{
+	width: 150px;
+	border-radius: 10px;
+}
+#datetime{
+	width: 10%;
+	  vertical-align: center;
+	  background-color:#C4C4C4;
+	  border-radius: 10px;
+}
+#fil_btn{
+	width:100%;
+}
+#book_name{
+	font-weight: bolder;
+	font-size: 21;
+	  vertical-align: top;
+}
+
+#reader{
+	  vertical-align: bottom;
+}
+
+#ttt{
+	border: 3px solid black;
+}
+
+.not_seen {
+	background:#FF8065;
+}
+a {
+	text-decoration: none;
+}
+
+#header_left{
+	float: left;
+}
+
+#deauth{
+	font-family: 'Montserrat Alternates', sans-serif;
+	border: 2px solid white;
+	color: white;
+	border-radius: 15px;	
+	font-size: 100%;
+	background-color:transparent;
+	
+}
+
+form{
+float:left;
+margin-top: -3px;
+margin-right: 3px;
+}
+
+#header_right{
+	float: right;
+}
+
+#counter{
+	font-family: 'Montserrat Alternates', sans-serif;
+	color: white;
+	margin: auto;
+	text-align: center;
+}
+
+.not_prepared{
+	background: #FFFCB2;
+}
+
+.prepared{
+	background: #98DF99;
+}
+	
+.not_found{
+	background: #AEDBE3;
+}	
+	
+#btn{
+	font-family: 'Montserrat Alternates', sans-serif;
+	border: 2px solid white;
+	color: white;
+	border-radius: 15px;	
+	font-size: 100%;
+	background-color:transparent;
+	width: 350px;
+}	
+
+#deauth:hover{
+	color: white;
+	background-color:grey;
+	border: 2px solid white;
+}
+
+#deauth:active{
+	color: black;
+	background-color:white;
+	border: 2px solid grey;
+}
+
+#btn:hover{
+	color: white;
+	background-color:grey;
+	border: 2px solid white;
+}
+
+#btn:active{
+	color: black;
+	background-color:white;
+	border: 2px solid grey;
+}
+#btn_del{
+	font-family: 'Montserrat Alternates', sans-serif;
+	border: 2px solid grey;
+	color: grey;
+	border-radius: 15px;	
+	font-size: 100%;
+	background-color:white;
+}
+#btn_del:hover{
+	color: white;
+	background-color:grey;
+	border: 2px solid white;
+}
+
+#btn_del:active{
+	color: black;
+	background-color:white;
+	border: 2px solid grey;
+}
+
+body{
+	background-image: url("../img/background_index.jpg");
+	background-size:cover;
+	background-color:black;
+	background-repeat: no-repeat;
+	margin: 0;
+}
+
+#header{
+	border-bottom: 2px solid white; 
+	height: 25px;
+	background-color: black;
+	padding: 10px;
+	padding-bottom:10px;
+	padding-top:10px;
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-weight: bold;
+	color: white;
+}
+
+#panel{
+	margin: auto;
+}
+ #goout{
+	 display: block;
+	 text-align:center;
+	 margin: auto;
+	font-family: 'Montserrat Alternates', sans-serif;
+	border: 2px solid white;
+	color: white;
+	border-radius: 15px;	
+	font-size: 100%;
+	background-color:transparent;
+	width: 350px;
+ }

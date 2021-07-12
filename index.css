@@ -1,0 +1,172 @@
+#wtl {
+	font-size:300%;
+	font-family: 'Poppins', sans-serif;
+	color: #FFFFFF;
+	text-align:left;
+	line-height: 100%;
+	height:120px;
+	height:100%;
+}
+
+#more{
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-weight: bold;
+	color: white;
+}
+
+#wtl_search{
+	margin: auto;
+	color: white;
+	text-align:right;
+	margin:top;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size:200%;
+	height: 60px;
+
+}
+#search_div{
+	font-family: 'Montserrat Alternates', sans-serif;
+	border: 2px solid white;
+	color: white;
+	border-radius: 15px;	
+	font-size: 100%
+}
+#reserve_div{
+	font-family: 'Montserrat Alternates', sans-serif;
+	border: 2px solid white;
+	color: white;
+	border-radius: 15px;	
+	font-size: 100%;
+}
+
+#auth{
+	font-family: 'Montserrat Alternates', sans-serif;
+	border: 2px solid white;
+	color: white;
+	border-radius: 15px;	
+	font-size: 100%;
+	
+}
+#deauth{
+	font-family: 'Montserrat Alternates', sans-serif;
+	border: 2px solid white;
+	color: white;
+	border-radius: 15px;	
+	font-size: 100%;
+	display: block;
+	width: 100%;
+	background-color:transparent;
+	
+}
+#reg{
+	font-family: 'Montserrat Alternates', sans-serif;
+	border: 2px solid white;
+	color: white;
+	border-radius: 15px;	
+	font-size: 100%;
+}
+
+a {
+	color: white;
+	display: block;
+	text-decoration: none;
+}
+
+a:hover{
+	 color: white;
+}
+a:active{
+	color: black;
+}
+a:visited {
+	color:white;
+} 
+
+#reg:hover{
+	color: white;
+	background-color:grey;
+	border: 2px solid white;
+}
+#reg:active{
+	color: black;
+	background-color:white;
+	border: 2px solid grey;
+}
+#auth:hover{
+	color: white;
+	background-color:grey;
+	border: 2px solid white;
+}
+
+#deauth:hover{
+	color: white;
+	background-color:grey;
+	border: 2px solid white;
+}
+#auth:active{
+	color: black;
+	background-color:white;
+	border: 2px solid grey;
+}
+#deauth:active{
+	color: black;
+	background-color:white;
+	border: 2px solid grey;
+}
+#search_div:hover{
+	color: white;
+	background-color:grey;
+	border: 2px solid white;
+}
+#search_div:active{
+	color: black;
+	background-color:white;
+	border: 2px solid grey;
+}
+
+#reserve_div:hover{
+	color: white;
+	background-color:grey;
+	border: 2px solid white;
+}
+#reserve_div:active{
+	color: black;
+	background-color:white;
+	border: 2px solid grey;
+}
+
+body{
+	background-image: url("../img/background_index.jpg");
+	background-size:cover;
+	background-color:black;
+	background-repeat: no-repeat;
+}
+
+#content {
+	position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+	text-align: center;
+	display: flex;
+    flex-direction: column;
+}
+
+table{
+	margin:auto;
+	text-align:center;
+	
+}
+td{
+	text-align:center;
+}
+#buttons {
+	background-color:green;
+	height:35%;
+}
+#footer	{
+	height:10%;
+	width:100%;
+}

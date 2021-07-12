@@ -1,0 +1,101 @@
+body{
+	background-image: url("../img/background_index.jpg");
+	background-size:cover;
+	background-color: black  ;
+	background-repeat: no-repeat;
+	text-align:center;
+	font-family: 'Montserrat Alternates', sans-serif;
+	color: white;
+}
+
+input{
+	font-family: 'Montserrat Alternates', sans-serif;
+	border: 2px solid white;
+	color: white;
+	border-radius: 15px;	
+	font-size: 100%;
+	background-color:transparent;
+	width: 220px;
+}
+form{
+	font-family: 'Montserrat Alternates', sans-serif;
+	border: 2px solid white;
+	color: white;
+	border-radius: 15px;	
+	font-size: 100%;
+	width: 400px;
+	text-align: center;
+	margin:auto;
+	margin-top: 100px;
+	background-color: rgba(200, 200, 201, 0.6);
+	padding-top: 20px;
+	padding-bottom:20px;
+}
+textarea {
+	width: 350 px;
+}
+a {
+	width: 220px;
+	font-family: 'Montserrat Alternates', sans-serif;
+	border: 2px solid white;
+	color: white;
+	border-radius: 15px;	
+	font-size: 100%;
+	text-decoration:none;
+	margin: auto;
+	display: block;
+}
+
+::placeholder {
+  color: black;
+}
+a:hover{
+	color: white;
+	background-color:grey;
+	border: 2px solid white;
+}
+a:active{
+	color: black;
+	background-color:white;
+	border: 2px solid grey;
+}
+ #reg:hover{
+	 color: white;
+	background-color:grey;
+	border: 2px solid white;
+ }
+#reg:active{
+	color: black;
+	background-color:white;
+	border: 2px solid grey;
+} 
+#reg{
+		 width: 220px;
+}
+textarea{
+	border: 2px solid white;
+	color: black;
+	border-radius: 15px;
+}
+select {
+		font-family: 'Montserrat Alternates', sans-serif;
+	border: 2px solid white;
+	color: white;
+	border-radius: 15px;	
+	font-size: 100%;
+	background-color: transparent;
+		 width: 220px;
+}
+option{
+	color: black;
+}
+#welcome{
+	width: 100%;
+	float: top;
+}
+#content_panel{
+	margin: auto;
+	padding-top: 100px;
+	width: 350px;
+	height: 350px;
+}

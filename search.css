@@ -1,0 +1,206 @@
+#header_inp{
+	margin:auto;
+	background-image: url("../img/background_index.jpg");
+	background-size:cover;
+}
+#header{
+	border-bottom: 2px solid white; 
+	height: 25px;
+	background-color: black;
+	padding: 10px;
+	padding-bottom:10px;
+	padding-top:10px;
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-weight: bold;
+	color: white;
+	
+}
+#not_auth{
+	float:left;
+	width: 65%;
+}
+#header_left{
+	float: left;
+	width: 50%;
+}
+#header_right{
+	float: right;
+}
+#header_right_na{
+	width:250px;
+	float: right;
+	width:35%;
+}
+#reg{
+	float:right;
+	width:200px;
+	text-align:center;
+}
+#auth{
+	float:right;
+	width:200px;
+	text-align:center;
+}
+h2{color:white;}
+#search_line{
+	margin: auto;
+	float: top; 
+	padding-left: 10px;
+	padding-right: 10px;
+	height:35px;
+	font-family: 'Montserrat Alternates', sans-serif;
+	background-color: rgba(200, 200, 201, 0.6);
+}
+::placeholder {
+  color: black;
+}
+
+#search_inp{
+	width: 260px;
+	float:left;
+	
+}
+input.search_inp{
+	width: 250px;
+}
+#search_results{
+
+	height: 74%;
+		text-align:center;
+}
+ form{
+    	margin-top: 5px;
+	margin-bottom: 5px;
+	
+ }
+ #forma{
+	 float:left;
+	 width: 360px;
+ }
+  #forma1{
+	 float:left;
+	 width: 170px;
+ }
+   #forma2{
+	 float:right;
+ }
+ .not_found1 {
+	 text-align: right;
+	 height:20px;
+	 margin:0;
+	 float:right;
+	 margin: 5px;
+	 float: right;
+ }
+ #not_found_button{
+	 width: 200px;
+	 float: right;
+	 text-align:center;
+ }
+ #not_found_text{
+	 color: white;
+	 font-weight:bold;
+	 float:left;
+	 width:250px;
+ }
+ body{
+	margin: 0;
+	background-image: url("../img/background_index.jpg");
+	background-size:cover;
+	background-color:black;
+	background-repeat: no-repeat;
+	font-family: 'Montserrat Alternates', sans-serif;
+ }
+ #goout{
+	 width: 350px;
+	 margin: auto;
+ }
+ a {
+	text-align:center;
+	color: white;
+	display: block;
+	text-decoration: none;
+	border: 2px solid white;
+	border-radius: 15px;	
+}
+
+a:hover{
+	color: white;
+	background-color:grey;
+}
+a:active{
+	color: black;
+	background-color:white;
+}
+
+#deauth{
+	font-family: 'Montserrat Alternates', sans-serif;
+	border: 2px solid white;
+	color: white;
+	border-radius: 15px;	
+	font-size: 100%;
+	background-color:transparent;
+	
+}
+#deauth:hover{
+	color: white;
+	background-color:grey;
+	border: 2px solid white;
+}
+
+#deauth:active{
+	color: black;
+	background-color:white;
+	border: 2px solid grey;
+}
+
+#inp_search{
+	font-family: 'Montserrat Alternates', sans-serif;
+	border: 2px solid white;
+	color: white;
+	border-radius: 15px;	
+	font-size: 100%;
+	background-color:transparent;
+}
+table{
+	background-color:#D6D6D6;
+	width: 80%;
+	margin: auto;
+	font-family: calibri;
+	border-spacing: 4px;
+	 border: 1px solid #979797 ;
+	 border-radius: 10px;
+	 text-align:center;
+}
+td{
+	border-radius: 10px;
+	background:#E3E3E3;
+}
+th{
+	border-radius: 10px;
+	background: #B0B0B0;
+}
+#btn{
+	font-family: 'Montserrat Alternates', sans-serif;
+	border-radius: 15px;	
+	font-size: 100%;
+	margin: auto;
+	background-color: white;
+}	
+#deauthd{
+	margin: 0;
+}
+.not_seen {
+	background:#FF8065;
+}
+.not_prepared{
+	background: #FFFCB2;
+}
+
+.prepared{
+	background: #98DF99;
+}
+	
+.not_found{
+	background: #AEDBE3;
+}	
